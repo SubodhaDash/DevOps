@@ -12,7 +12,7 @@ pipeline{
     environment{
         SNAP_REPO = 'vprofile-snapshot'
         NEXUS_USER = 'admin'
-        NEXUS_PASS = 'subodha64'
+        NEXUS_PASS = 'subodha6'
         RELEASE_REPO = 'vprofile-release'
         CENTRAL_REPO = 'vprofile-maven-central'
         NEXUSIP = '172.31.32.239' //nexus server private IP
