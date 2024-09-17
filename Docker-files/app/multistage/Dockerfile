@@ -1,6 +1,6 @@
 FROM openjdk:11 AS BUILD_IMAGE
 RUN apt update && apt install maven -y
-RUN git clone https://github.com/SubodhaDash/DevOps.git
+RUN git clone -b cicd-jenkins https://github.com/SubodhaDash/DevOps.git
 RUN cd DevOps && mvn install
 
 FROM tomcat:9-jre11
